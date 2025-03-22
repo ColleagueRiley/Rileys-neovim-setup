@@ -5,7 +5,9 @@
 * discord RPC
 * transparent darkmode (with tokyonight)
 * <leader>e to open file explorer to side
-*  vim options (4-spaced indents)
+* vim options (4-spaced indents)
+* toggle terminal with <leader>v
+* lsp semantic based highlighting 
 
 # NvChad/starter
 **This repo is supposed to used as config by NvChad users!**
