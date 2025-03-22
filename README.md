@@ -3,8 +3,9 @@
 ## features
 * clangd LSP
 * discord RPC
-* transparent darkmode
+* transparent darkmode (with tokyonight)
 * <leader>e to open file explorer to side
+*  vim options (4-spaced indents)
 
 # NvChad/starter
 **This repo is supposed to used as config by NvChad users!**

@@ -7,7 +7,7 @@ local M = {}
 
 M.base46 = {
 	theme = "tokyonight",
-  transparency = true
+    transparency = true 
 	-- hl_override = {
 	-- 	Comment = { italic = true },
 	-- 	["@comment"] = { italic = true },
@@ -15,10 +15,8 @@ M.base46 = {
 }
 
 -- M.nvdash = { load_on_startup = true }
--- M.ui = {
---       tabufline = {
---          lazyload = false
---      }
---}
+M.ui = {
+    lsp_semantic_tokens = true
+}
 
 return M
