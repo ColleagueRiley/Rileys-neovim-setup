@@ -36,4 +36,4 @@ vim.schedule(function()
   require "mappings"
 end)
 
-require("toggleterm").setup()
+vim.o.clipboard = "unnamedplus"
