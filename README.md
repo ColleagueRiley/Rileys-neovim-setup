@@ -8,6 +8,8 @@
 * vim options (4-spaced indents)
 * toggle terminal with <leader>v
 * lsp semantic based highlighting 
+* fuzzy finder
+* relative line numbers 
 
 # NvChad/starter
 **This repo is supposed to used as config by NvChad users!**
