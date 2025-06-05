@@ -9,6 +9,6 @@ vim.cmd("set shiftwidth=4")
 vim.cmd("set softtabstop=4")
 vim.cmd("set softtabstop=4")
 vim.cmd("set relativenumber")
-vim.cmd("set expandtab = true");
+vim.cmd("set expandtab");
 
 vim.o.clipboard = "unnamedplus"
