@@ -5,6 +5,8 @@ return {
     opts = require "configs.conform",
   },
 
+
+  {'akinsho/git-conflict.nvim', version = "*", config = true},
   -- These are some examples, uncomment them if you want to see them work!
   {
     "neovim/nvim-lspconfig",
@@ -12,7 +14,6 @@ return {
       require "configs.lspconfig"
     end,
   },
-
 {
     "nvim-treesitter/nvim-treesitter",
     opts = {
@@ -20,6 +21,7 @@ return {
         "c", "cpp",
         "bash",
         "html",
+        "css",
         "javascript",
         "json",
         "lua",

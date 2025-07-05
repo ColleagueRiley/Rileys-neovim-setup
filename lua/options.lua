@@ -10,5 +10,14 @@ vim.cmd("set softtabstop=4")
 vim.cmd("set softtabstop=4")
 vim.cmd("set relativenumber")
 vim.cmd("set expandtab");
+vim.cmd("set clipboard=unnamedplus")
 
-vim.o.clipboard = "unnamedplus"
+vim.opt.tabstop = 4
+vim.opt.softtabstop = 4
+vim.opt.shiftwidth = 4
+
+vim.opt.smartindent = true
+vim.opt.autoindent = true
+vim.opt.expandtab = false
+
+vim.cmd([[autocmd BufWritePre * :%s/\s\+$//e]])
